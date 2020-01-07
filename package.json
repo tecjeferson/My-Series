@@ -17,7 +17,7 @@
     "reactstrap": "^8.2.0"
   },
   "scripts": {
-    "start": "npm-run-all build start-server yarn",
+    "start": "npm-run-all yarn build start-server",
     "yarn": "yarn install",
     "start-react": "react-scripts start",
     "start-server": "node ./node_modules/minhas-series-server/index.js",
